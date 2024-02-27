@@ -70,7 +70,7 @@ export default function Xpagination() {
           Previous
         </button>
         <span>
-          <div className="curr-page">{currPage}</div>
+          <div className="pagination">{currPage}</div>
         </span>
         <button onClick={handleNextPage} disabled={currPage === pages}>
           Next
